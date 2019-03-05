@@ -9,7 +9,21 @@
         
         /* https://developer.mozilla.org/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#Combinators_and_selector_lists */
         /* WRITE YOUR CSS HERE */
-
+        .oranges {
+            color:violet
+        }
+        p > span {
+            color:red;
+        }
+        p + p {
+            color:blue;
+        }
+        p ~ ul {
+            color:orange;
+        }
+        li > em{
+            color:pink;
+        }
     </style>
 </head>
     
@@ -21,7 +35,7 @@
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
         </ol>
         <p>
-            make this text red using a child selector
+            <span>make this text red using a child selector</span>
         </p>
         <p>
             make this text blue using an adjacent selector
