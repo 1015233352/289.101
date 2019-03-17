@@ -43,6 +43,7 @@ body {
     font-weight: bold;
     margin-top: 25px;
     padding: 15px 30px;
+    margin-bottom: 330px;
 }
 
 #what {
@@ -54,17 +55,20 @@ body {
     padding-bottom: 25px;
     text-align: center;
     color: #347788;
+    font-size: 40px;
 }
 
 #what p {
-    width: 800px;
+    width: 660px;
     margin-left: auto;
     margin-right: auto;
     color: #347788;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 #what h1 + p {
-    font-size: 21px;
+    font-size: 18px;
     color: #347788;
 }
 
@@ -74,5 +78,40 @@ body {
 }
 
 #sponsor_logos img{
-    width:330px;
+    width:280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#why {
+    background-color: #b6ead3;
+}
+
+#why h1 {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #347788;
+    font-size: 40px;
+}
+
+#why p {
+    font-weight: bold;
+    font-size: 15px;
+    color: #347788;
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+}
+
+#where {
+    background-image: url(img/map.gif);
+    background-position: center;
+    background-size: 1700px auto;
+    background-repeat: no-repeat, repeat-x;
+}
+
+#when {
+    background-image: url(img/wires.png);
+    background-color: #439998;
 }
